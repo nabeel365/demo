@@ -7,6 +7,7 @@ fetch('https://openapi.programming-hero.com/api/ai/tools')
 
 const displayinfos = infos => {
     console.log(infos.data.tools[0].name);
+    // এখানে ডাটা কনসোল লগ হচ্ছে কিন্তু নিচে হ্৫ ট্যাগ এ কার্ড টাইটেল এ data সে করছে না। 
     const infosContainer = document.getElementById('infos-container');
     infosContainer.innerText = '';
 
