@@ -1,0 +1,61 @@
+/**
+const displayinfos = infos => {
+    console.log(infos.data.tools[0].name);
+    // এখানে ডাটা কনসোল লগ হচ্ছে কিন্তু নিচে হ্৫ ট্যাগ এ কার্ড টাইটেল এ data সে করছে না। 
+    const infosContainer = document.getElementById('infos-container');
+    infosContainer.innerText = '';
+    
+    infos.forEach(info => {
+      console.log(info)
+      const infoDiv = document.createElement('div');
+      infoDiv.classList.add('col');
+      infoDiv.innerHTML = `
+      <div class="card h-100">
+              <img src="" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">${[...infos].data.tools[0].name}</h5>
+                <p class="card-text">}</p>
+
+
+                <button type="button" class="btn btn-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <i class="fa-solid fa-circle-right"></i>
+</button>
+Details
+</button>
+
+                
+              </div>
+      </div>
+      `
+
+      infosContainer.appendChild(infoDiv);
+  }) 
+     
+}
+ */
+
+
+
+
+
+
+  // const showAll = document.getElementById('see-more-btn');
+
+  // if (dataLimit && infos.length > 6) {
+  //     infos = infos.slice(0, 6);
+  //     showAll.classList.remove('d-none')
+  // }
+  // else {
+  //     showAll.classList.add('d-none')
+
+  // }
+
+
+  // const noinfo = document.getElementById('not-found-msg');
+  // if (infos.length === 0) {
+  //     noinfo.classList.remove('d-none')
+  // }
+  // else {
+  //     noinfo.classList.add('d-none')
+
+  // }
